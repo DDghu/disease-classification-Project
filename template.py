@@ -23,7 +23,7 @@ list_of_files=[
     "requirements.txt",
     "setup.py",
     "research/trials.ipnyb",#before implementing the actual components I try to create notebook experiment in this
-    
+    "templates/index.html"  #cause we going to create a flask web app
 ]
 
 for filepath in list_of_files:
