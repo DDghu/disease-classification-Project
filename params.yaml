@@ -1,8 +1,10 @@
+# we use transfer learning for my base model and these are our hyperparameters
+
 AUGMENTATION: True
 IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
 BATCH_SIZE: 16
 INCLUDE_TOP: False
 EPOCHS: 1
 CLASSES: 2
-WEIGHTS: imagenet
+WEIGHTS: imagenet #trained on imagenet weights
 LEARNING_RATE: 0.01
