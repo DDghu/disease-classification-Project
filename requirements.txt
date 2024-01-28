@@ -5,10 +5,10 @@ notebook
 numpy
 matplotlib
 seaborn
-python-box==6.0.2
+python-box #we use box exception so we don't need to create exception module separately
 pyYAML
 tqdm
-ensure==1.0.2
+ensure
 joblib
 types-PyYAML
 scipy
