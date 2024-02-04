@@ -19,3 +19,10 @@
 8.update the main.py
 
 9.update the dvc.yaml <!-- to track my pipelines  -->
+
+
+## . Create ECR repo to store/save docker image
+- Save the URI: 960433745230.dkr.ecr.us-east-1.amazonaws.com/chicken
+
+## 6. Configure EC2 as self-hosted runner:
+setting>actions>runner>new self hosted runner> choose os> then run command one by one
