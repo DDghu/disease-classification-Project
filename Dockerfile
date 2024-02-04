@@ -1,4 +1,4 @@
-FROM PYTHON:3.10-slim-buster  
+FROM python:3.10-slim-buster  
 # slim-buster image as a docker image
 
 RUN apt update -y && apt install awscli -y
